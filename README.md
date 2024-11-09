@@ -1,5 +1,6 @@
 # Sleep-Stage-Detection
 Semi-Supervised EEG Signal Processing for Sleep Stage Detection
+
 ![Segmented EEG Signal by Sleep Stage](EEG.jpg)
 
 ## Project Overview
