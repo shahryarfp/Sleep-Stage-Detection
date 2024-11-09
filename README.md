@@ -11,10 +11,12 @@ This project processes EEG data to identify sleep stages (AWAKE, REM, NREM) usin
 - **Feature Extraction**: Extracts time-domain and frequency-domain features.
 - **Dimensionality Reduction**: PCA for feature space reduction.
 - **Clustering**: Uses Gaussian Mixture Model (GMM) for unsupervised clustering of sleep stages.
+- **Pre-labeling**: Implements knowledge-based rules to create initial labels for guiding the clustering process.
+- **Semi-supervised Learning**: Combines pre-labeled data segments with unsupervised GMM clustering to improve sleep stage identification.
 - **Visualization**: Plots original and processed signals, FFT, PSD, histograms, and hypnograms.
 
 ## Dataset
-The project uses an EEG dataset(without labels) stored in a `.mat` file (`data.mat`), containing EEG signals sampled at a specific rate, which are processed to microvolts and prepared for analysis.
+The project uses an EEG dataset (without labels) stored in a `.mat` file (`data.mat`), containing EEG signals sampled at a specific rate, which are processed to microvolts and prepared for analysis.
 
 ## Methodology
 1. **Data Loading and Pre-processing**
@@ -30,9 +32,9 @@ The project uses an EEG dataset(without labels) stored in a `.mat` file (`data.m
 3. **Dimensionality Reduction**
    - Apply PCA to reduce features, retaining 98% explained variance.
 
-4. **Clustering**
-   - Pre-label segments based on empirical rules.
-   - Apply GMM clustering to identify sleep stages.
+4. **Pre-labeling and Clustering**
+   - Apply knowledge-based empirical rules to pre-label data segments.
+   - Use pre-labeled segments to guide the unsupervised GMM clustering, enabling a semi-supervised approach to identify sleep stages.
 
 ## Results
 - Visual outputs include:
