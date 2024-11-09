@@ -39,10 +39,6 @@ The project uses an EEG dataset stored in a `.mat` file (`data.mat`), containing
   - Histograms of feature distributions.
   - Hypnogram representing segmented EEG data.
 
-## References
-1. Huang, C.-S., et al. (2014). *Knowledge-based identification of sleep stages based on two forehead electroencephalogram channels*. [Frontiers in Neuroscience](http://www.frontiersin.org)
-2. Dement, W., & Kleitman, N. (1957). *Cyclic variations in EEG during sleep and their relation to eye movements, body motility, and dreaming*. Electroencephalography and Clinical Neurophysiology, 9(4), 673-690.
-
 ## Setup and Usage
 ### Prerequisites
 - MATLAB with Signal Processing and Statistics toolboxes.
@@ -52,5 +48,6 @@ The project uses an EEG dataset stored in a `.mat` file (`data.mat`), containing
 2. Run the script step-by-step to view plots and results.
 3. Save outputs in an `outputs/` folder for organized results storage.
 
-## Acknowledgments
-Thanks to Huang et al. (2014) and Dement & Kleitman (1957) for foundational research that inspired this project.
+## References
+1. Huang, C.-S., et al. (2014). *Knowledge-based identification of sleep stages based on two forehead electroencephalogram channels*. [Frontiers in Neuroscience](http://www.frontiersin.org)
+2. Dement, W., & Kleitman, N. (1957). *Cyclic variations in EEG during sleep and their relation to eye movements, body motility, and dreaming*. Electroencephalography and Clinical Neurophysiology, 9(4), 673-690.
