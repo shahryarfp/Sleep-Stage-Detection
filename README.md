@@ -1,5 +1,6 @@
 # Sleep-Stage-Detection
 Semi-Supervised EEG Signal Processing for Sleep Stage Detection
+![Segmented EEG Signal by Sleep Stage](EEG.jpg)
 
 ## Project Overview
 This project processes EEG data to identify sleep stages (AWAKE, REM, NREM) using a semi-supervised approach due to the lack of labels. It involves data loading, pre-processing, feature extraction, dimensionality reduction, and clustering.
