@@ -12,7 +12,7 @@ This project processes EEG data to identify sleep stages (AWAKE, REM, NREM) usin
 - **Visualization**: Plots original and processed signals, FFT, PSD, histograms, and hypnograms.
 
 ## Dataset
-The project uses an EEG dataset stored in a `.mat` file (`data.mat`), containing EEG signals sampled at a specific rate, which are processed to microvolts and prepared for analysis.
+The project uses an EEG dataset(without labels) stored in a `.mat` file (`data.mat`), containing EEG signals sampled at a specific rate, which are processed to microvolts and prepared for analysis.
 
 ## Methodology
 1. **Data Loading and Pre-processing**
