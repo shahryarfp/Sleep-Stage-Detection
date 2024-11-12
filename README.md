@@ -1,5 +1,5 @@
 # Sleep-Stage-Detection
-Semi-Supervised EEG Signal Processing for Sleep Stage Detection
+Semi-Supervised EEG Signal Processing for Sleep Stage Clustering
 
 ![Segmented EEG Signal by Sleep Stage](EEG.jpg)
 
